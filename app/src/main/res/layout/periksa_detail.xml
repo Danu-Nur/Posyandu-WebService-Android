@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="7dp"
+    android:orientation="vertical"
+    android:background="@drawable/polos2"
+    android:id="@+id/detailPeriksa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#4CAF50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FBE94B"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd"
+                android:text="Kader :   "
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/txtKader"
+                android:text="kader"
+                android:background="#FAF7F7"
+                android:textColor="#112291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#4CAF50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FBE94B"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd"
+                android:text="Nama Balita :   "
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/txtAnak"
+                android:text="Anak"
+                android:background="#FAF7F7"
+                android:textColor="#112291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#4CAF50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FBE94B"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd"
+                android:text="Vitamin :   "
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/txtVit"
+                android:text="vit"
+                android:background="#FAF7F7"
+                android:textColor="#112291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#4CAF50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FBE94B"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd"
+                android:text="Imunisasi :   "
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/txtImun"
+                android:text="imun"
+                android:background="#FAF7F7"
+                android:textColor="#112291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.3"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#4CAF50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FBE94B"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd"
+                android:text="Tgl Periksa :   "
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/txtTgl"
+                android:text="tgl"
+                android:background="#FAF7F7"
+                android:textColor="#112291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.3"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#4CAF50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FBE94B"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd"
+                android:text="Berat Badan :   "
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/txtBB"
+                android:text="berat"
+                android:background="#FAF7F7"
+                android:textColor="#112291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.3"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#4CAF50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FBE94B"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textAlignment="viewEnd"
+                android:text="Tinggi Badan :   "
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/txtTB"
+                android:text="tinggi"
+                android:background="#FAF7F7"
+                android:textColor="#112291"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/polos"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".registrasi.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:text="Welcome!"
+            android:textStyle="bold"
+            android:textColor="#009688"
+            android:layout_margin="7dp"/>
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kotak"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#03A9F4"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/editTextPass"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/kotak"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#03A9F4"
+            android:ems="10"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:hint="Password" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/kotaklogin"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="200dp"
+            android:background="#00555555"
+            android:textColor="#009688"
+            android:text="Register"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>

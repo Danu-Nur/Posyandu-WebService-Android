@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/registrasi"
+    tools:context=".registrasi.Registrasi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/icon" />
+
+            <TextView
+                android:id="@+id/TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="#9C0707"
+                android:text="REGISTRASI"
+                android:textSize="10dip" />
+
+            <EditText
+                android:id="@+id/txt_noKK"
+                android:background="#6ADAAD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:hint="No. KK"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_namaAyah"
+                android:background="#6ADAAD"
+                android:paddingLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:hint="Nama Ayah"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_namaIbu"
+                android:background="#6ADAAD"
+                android:paddingLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:hint="Nama Ibu"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_namaBalita"
+                android:background="#6ADAAD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:hint="Nama Balita"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_tglBalita"
+                android:background="#6ADAAD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:clickable="true"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="Tanggal Lahir Balita" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txtIsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6ADAAD"
+                    android:textSize="15dp"
+                    android:paddingLeft="15dp"
+                    android:textColor="#000000"
+                    android:text="Jenis Kelamin"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="@+id/spinner_jK"
+                    android:layout_weight="0.5"/>
+
+                <Spinner
+                    android:id="@+id/spinner_jK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="@+id/txtIsi"
+                    android:layout_weight="0.5"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txt_alamat"
+                android:background="#6ADAAD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:hint="Alamat"
+                android:inputType="textMultiLine"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_noTelp"
+                android:background="#6ADAAD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:hint="Nomor Telepon"
+                android:inputType="number"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_username"
+                android:background="#6ADAAD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_password"
+                android:background="#6ADAAD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_confirm_password"
+                android:background="#6ADAAD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:hint="Comfirmation Password"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#448AFF"
+                android:textColor="#fff"
+                android:text="Registrasi"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#448AFF"
+                android:textColor="#fff"
+                android:text="Login"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

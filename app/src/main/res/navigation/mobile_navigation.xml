@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.hallobalita.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_periksa"
+        android:name="com.example.hallobalita.ui.pemeriksaan.PemeriksaanFragment"
+        android:label="@string/menu_periksa"
+        tools:layout="@layout/periksa_fragment" />
+
+    <fragment
+        android:id="@+id/nav_kontak"
+        android:name="com.example.hallobalita.ui.kontak.KontakFragment"
+        android:label="@string/menu_kontak"
+        tools:layout="@layout/kontak_fragment" />
+
+    <fragment
+        android:id="@+id/nav_artikel"
+        android:name="com.example.hallobalita.ui.artikel.ArtikelFragment"
+        android:label="@string/menu_artikel"
+        tools:layout="@layout/artikel_fragment" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.hallobalita.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/about_fragment" />
+
+</navigation>

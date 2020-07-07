@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/polos2"
+    tools:context=".user.EditActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@mipmap/icon" />
+
+                <TextView
+                    android:id="@+id/TextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#F623A2"
+                    android:text="@string/edit_profil"
+                    android:textSize="20dip" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edit_noKK"
+                android:background="#2114E6"
+                android:textColor="#FAF6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:hint="No. KK"
+                android:inputType="number"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_namaAyah"
+                android:background="#2114E6"
+                android:textColor="#FAF6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+
+                android:hint="Nama Ayah"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_namaIbu"
+                android:background="#2114E6"
+                android:textColor="#FAF6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:hint="Nama Ibu"
+                android:paddingLeft="15dp"
+
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_namaBalita"
+                android:background="#2114E6"
+                android:textColor="#FAF6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:hint="Nama Balita"
+                android:paddingLeft="15dp"
+
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_tglBalita"
+                android:background="#2114E6"
+                android:textColor="#FAF6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:editable="false"
+                android:paddingLeft="15dp"
+                android:focusable="false"
+                android:hint="Tanggal Lahir Balita" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/editIsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#2114E6"
+                    android:textSize="15dp"
+                    android:paddingLeft="15dp"
+                    android:textColor="#FAFAFB"
+                    android:text="Jenis Kelamin"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="@+id/spinner_jK"
+                    android:layout_weight="0.5"/>
+
+                <Spinner
+                    android:id="@+id/editspinner_jK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="@+id/txtIsi"
+                    android:layout_weight="0.5"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edit_alamat"
+                android:background="#2114E6"
+                android:textColor="#FAF6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:hint="Alamat"
+                android:paddingLeft="15dp"
+                android:inputType="textMultiLine"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_noTelp"
+                android:background="#2114E6"
+                android:textColor="#FAF6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:hint="Nomor Telepon"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_username"
+                android:background="#2114E6"
+                android:textColor="#FAF6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:hint="Username"
+                android:paddingLeft="15dp"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edit_password"
+                android:background="#2114E6"
+                android:textColor="#FAF6F6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:hint="Password"
+                android:paddingLeft="15dp"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_simpan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/ic_save"
+                android:background="#009688"
+                android:textColor="#fff"
+                android:text="SAVE"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

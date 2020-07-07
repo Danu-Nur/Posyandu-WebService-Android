@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/registrasi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.Profil">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp">
+
+                        <TextView
+                            android:id="@+id/TextView2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:textColor="#F127A1"
+                            android:text="@string/profil"
+                            android:textSize="20dip"
+                            android:textStyle="bold"/>
+
+                        <ImageView
+                            android:id="@+id/logo"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:background="@mipmap/icon" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:id="@+id/btn_Edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="#1E39E8"
+                            android:textColor="#fff"
+                            android:layout_margin="5dp"
+                            android:paddingLeft="5dp"
+                            android:text="Edit"
+                            android:drawableLeft="@drawable/ic_edit"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btnKeluar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:background="#D61515"
+                            android:drawableLeft="@drawable/ic_exit"
+                            android:paddingLeft="5dp"
+                            android:text="Log Out"
+                            android:textStyle="bold"
+                            android:textColor="#fff" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="No. KK :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_noKK1"
+                        android:text="No. KK"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#267329"
+                        android:textAlignment="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="Nama Ayah :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_namaAyah1"
+                        android:text="ayah"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#267329"
+                        android:textAlignment="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="Nama ibu :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_namaIbu1"
+                        android:text="ibu"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#267329"
+                        android:textAlignment="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="Nama Balita :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_namaBalita1"
+                        android:text="balita"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#267329"
+                        android:textAlignment="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="Tgl Lahir Balita :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_tglBalita1"
+                        android:text="tgl"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#267329"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="Jenis Kelamin :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_jenis1"
+                        android:text="jk"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#267329"
+                        android:textAlignment="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="Alamat :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_Alamat1"
+                        android:text="alamat"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#267329"
+                        android:textAlignment="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="No. Telp :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_Telp1"
+                        android:text="telepon"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#267329"
+                        android:textAlignment="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="Username :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_Username1"
+                        android:text="username"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#267329"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#AE3A53D8">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#4CD1E3"
+                        android:textSize="15dp"
+                        android:textColor="#000000"
+                        android:textAlignment="viewEnd"
+                        android:text="Password :   "
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.5"/>
+
+                    <TextView
+                        android:id="@+id/txt_Password1"
+                        android:text="password"
+                        android:background="#FAF7F7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="#267329"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.3"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</RelativeLayout>

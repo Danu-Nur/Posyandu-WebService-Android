@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hello Balita</string>
+    <string name="title_activity_menu_user">MenuUser</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_periksa">Pemeriksaan</string>
+    <string name="menu_kontak">Kontak Kader</string>
+    <string name="Acara">Jadwal Pelaksanaan POSYANDU</string>
+    <string name="Kader">Kontak KADER</string>
+    <string name="profil">PROFIL DATA DIRI</string>
+    <string name="edit_profil">EDIT PROFIL</string>
+    <string name="detail">Detail Pemeriksaan</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="universitas_wijaya_putra">UNIVERSITAS WIJAYA PUTRA</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_artikel">Artikel Kesehatan</string>
+    <string name="tim">TIM PENGEMBANG :</string>
+    <string name="teknik">TEKNIK INFORMATIKA 2017</string>
+    <string name="creator_btn">TIM PENGEMBANG APLIKASI</string>
+    <string name="tentang">Tentang Aplikasi Hello Balita</string>
+    <string name="penjelasan">Hello Balita merupakan sebuah aplikasi Posyandu pada platform android dalam mengelola data balita, mengelola imunisasi balita, mengelola kegiatan posyandu, jadwal imunisasi, jadwal posyandu, tips dan trik berupa artikel kesehatan</string>
+
+</resources>

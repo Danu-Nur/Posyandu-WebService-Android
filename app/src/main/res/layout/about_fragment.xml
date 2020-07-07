@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about"
+    android:orientation="vertical"
+    android:background="#CBE5E8"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#44732A"
+        android:text="@string/tentang"
+        android:textSize="15dp"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2A732D"
+        android:text="POSYANDU ANAK"
+        android:textSize="15dp"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:src="@mipmap/icon_round"/>
+
+    <Button
+        android:id="@+id/tim"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#3C5A97"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/creator_btn"/>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#7A0F56"
+        android:textAlignment="center"
+        android:text="@string/penjelasan"/>
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pengembang"
+    android:orientation="vertical"
+    android:background="@drawable/gradientabout"
+    tools:context=".ui.about.Pengembang">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="17dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/logouwp_foreground"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14dp"
+            android:layout_marginRight="40dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:text="@string/universitas_wijaya_putra" />
+
+    </LinearLayout>
+    <View
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#886805"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2A732D"
+            android:text="@string/teknik"
+            android:textSize="24dp"
+            android:typeface="normal"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:text="@string/tim"
+            android:textSize="24dp"
+            android:typeface="normal"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="DANU NUR IRWANTO (17053030)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="AHMAD ISKANDAR (17053031)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="PRAYUDA WAHYU R (17053036)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="FUJI CIPTO TRI W (17053012)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="DWI ISNAENNI (17053026)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="TANIA SITI NINGRUM (17053008)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="EMILIA INA JAJI (17053014)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:text="OKTAVIAN CHANDRA (17053002)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="DOSEN :"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1D2E8C"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:text="SURYO ATMOJO, S.Kom, M.Kom"/>
+
+    </LinearLayout>
+
+</LinearLayout>

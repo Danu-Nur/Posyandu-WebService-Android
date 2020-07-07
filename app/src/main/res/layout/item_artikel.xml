@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgArtikel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/judulArtikel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#112291"
+        android:textAlignment="center"
+        android:text="Judul"/>
+
+    <TextView
+        android:id="@+id/isiArtikel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:textColor="#112291"
+        android:textAlignment="center"
+        android:text="isi artikel"
+        android:maxLines="1"
+        android:maxLength="50"
+        android:ellipsize="end"/>
+
+</LinearLayout>

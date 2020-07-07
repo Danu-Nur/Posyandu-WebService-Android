@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hallobalita">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".connect.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuUser"
+            android:label="@string/title_activity_menu_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.pemeriksaan.DetailPeriksa"
+            android:label="@string/detail" />
+        <activity
+            android:name=".registrasi.Registrasi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".registrasi.Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user.Profil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user.EditActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.artikel.DetailArtikel"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".ui.about.Pengembang"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
